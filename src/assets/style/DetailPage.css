@@ -1,0 +1,70 @@
+.detail-page .detail-height .img-div {
+  margin-left: -26px;
+}
+.detail-page article {
+  padding: 0 15px;
+}
+.detail-page article h1 {
+  font-size: 22px;
+  text-align: center;
+}
+.detail-page article img {
+  width: 100%;
+}
+.detail-page article content p {
+  text-indent: 2em;
+  line-height: 1.66;
+}
+.detail-page article i {
+  margin-right: 6px;
+}
+.detail-page .sub-list {
+  border-top: 1px solid #aaa;
+  padding: 14px;
+}
+.detail-page .sub-list .sub-list-header {
+  font-size: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #aaa;
+}
+.detail-page .sub-list .sub-list-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #aaa;
+}
+.detail-page .sub-list .sub-list-item .am-flexbox-item {
+  flex: 0 1 auto;
+  min-width: 80px;
+}
+.detail-page .sub-list .sub-list-item .am-flexbox-item h3 {
+  margin-top: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+.detail-page .sub-list .sub-list-item .am-flexbox-item p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.detail-page .comments {
+  padding: 15px 15px 0;
+}
+.detail-page .comments .comments-header {
+  font-size: 20px;
+  border-bottom: 1px solid #999;
+  padding-bottom: 6px;
+}
+.detail-page .comments .comments-left {
+  flex: 0 1 auto;
+}
+.detail-page .comments .comments-left img {
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.detail-page .comments .comments-content {
+  line-height: 1.66;
+}

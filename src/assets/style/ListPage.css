@@ -1,0 +1,35 @@
+.list-page {
+  background-color: #fff;
+}
+.list-page .sub-list {
+  border-top: 1px solid #aaa;
+  padding: 14px;
+}
+.list-page .sub-list .sub-list-header {
+  font-size: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #aaa;
+}
+.list-page .sub-list .sub-list-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #aaa;
+}
+.list-page .sub-list .sub-list-item .am-flexbox-item {
+  flex: 0 1 auto;
+  min-width: 80px;
+}
+.list-page .sub-list .sub-list-item .am-flexbox-item h3 {
+  margin-top: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+.list-page .sub-list .sub-list-item .am-flexbox-item p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}

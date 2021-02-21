@@ -1,0 +1,68 @@
+.home-page {
+  background-color: #fff;
+}
+.home-page .sub-list {
+  border-top: 1px solid #aaa;
+  padding: 14px;
+}
+.home-page .sub-list .sub-list-header {
+  font-size: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #aaa;
+}
+.home-page .sub-list .sub-list-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #aaa;
+}
+.home-page .sub-list .sub-list-item .am-flexbox-item {
+  flex: 0 1 auto;
+  min-width: 80px;
+}
+.home-page .sub-list .sub-list-item .am-flexbox-item h3 {
+  margin-top: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+.home-page .sub-list .sub-list-item .am-flexbox-item p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.home-page .tab .am-tabs-default-bar-tab {
+  font-size: 18px;
+}
+.home-page .tab .am-tabs-default-bar-tab-active {
+  color: #00439c;
+}
+.home-page .tab .am-tabs-default-bar-underline {
+  border-color: #00439c;
+}
+.home-page .tab h3 {
+  margin: 0 0 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.home-page .tab .tab-flex {
+  padding: 15px 15px 0 ;
+}
+.home-page .tab .tab-flex .tab-left {
+  flex: 0 1 auto;
+}
+.home-page .tab .tab-flex .tab-right span {
+  color: #999;
+}
+.home-page .tab .tab-flex .tab-right span i {
+  margin-right: 5px;
+}
+.home-page .footer {
+  text-align: center;
+  padding: 10px 0 15px;
+}
